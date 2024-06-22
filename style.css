@@ -1,0 +1,31 @@
+.container {
+position: relative;
+width: 200px;
+height: 200px;
+margin: 50px auto; 
+}
+
+.square {
+width: 100px;
+height: 100px;
+position: absolute;
+}
+
+.square1 {
+background-color: red;
+top: 0;
+left: 0;
+}
+
+.square2 {
+background-color: blue;
+top: 50px;
+left: 50px;
+z-index: 1;
+}
+
+.square3 {
+background-color: green;
+top: 100px;
+left: 100px;
+}
